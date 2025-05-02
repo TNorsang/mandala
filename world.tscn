@@ -5411,6 +5411,7 @@ texture_region_size = Vector2i(100, 100)
 89:59/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_036b0"]
+tile_size = Vector2i(100, 100)
 sources/0 = SubResource("TileSetAtlasSource_aqk2v")
 
 [node name="World" type="Node2D"]
@@ -5421,4 +5422,7 @@ scale = Vector2(4, 4)
 [node name="Map" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_036b0")
 format = 2
+layer_0/tile_data = PackedInt32Array(-131072, 65536, 1, -131066, 131072, 2, -524288, 196608, 2, -524282, 327680, 3, -524276, 327680, 3, -524269, 327680, 3, -458726, 196608, 3, -131071, 196608, 3, -131070, 196608, 3, -65536, 196608, 3, -65535, 196608, 3, -65534, 196608, 3, -131069, 393216, 3, -131068, 458752, 3, -131067, 524288, 3, -65531, 524288, 4, -65532, 458752, 4, -65533, 393216, 4, 3, 393216, 5, 4, 458752, 5, 5, 524288, 5, -65522, 65536, 0)
 script = ExtResource("2_fj7yv")
+map_width = 32
+map_height = 32
